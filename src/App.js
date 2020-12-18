@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <div className="flex">
-        <div className="w-1/5 border-r border-solid border-gray-300 p-4">
+      <div className="md:flex">
+        <div className="w-1/5 border-r border-solid border-gray-300 p-4 hidden md:block">
           <Sidebar/>
         </div>
-        <div className="w-4/5 p-4">
+        <div className="md:w-4/5 p-4">
           <Main/>
         </div>
       </div>
